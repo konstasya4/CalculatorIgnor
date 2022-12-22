@@ -17,7 +17,7 @@ public class MainTest {
     }
     @Test
     void multiplition(){
-        assertEquals(40, calculator.multiply(5, 8));
+        assertEquals(40, calculator.multiply(5,8));
     }
     @Test
     void share(){assertEquals(6, calculator.sharing(42,7));};
